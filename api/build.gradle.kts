@@ -43,6 +43,7 @@ kotlin {
             api(libs.kotlinx.serialization.json)
             api(libs.kotlin.serialization)
             api(libs.kotlinx.datetime)
+            api(libs.paging.compose.common)
             api(libs.navigation.compose)
             api(libs.koin.compose)
         }
